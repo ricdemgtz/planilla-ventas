@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <link rel="stylesheet" href="estilos.css">
+        <title>Planilla de Ventas</title>
+    </head>
+    
+    <body>
+        <header>
+            <p>🏪 Planilla de Ventas 🏪</p>
+            <label for="noTiendas">¿Cuantas tiendas tienes?</label>
+            <input type="number" name="tiendas" id="noTiendas">
+            <button onclick="start()">Generar Tiendas</button>
+        </header>
+        <br><br><br>
+        
+        <div id="itemsTiendas">
+        </div>
+
+        <p id="parrafoSalida">
+        </p>
+
+        <p>
+            <button onclick="calcular()">Calcular</button>
+        </p>
+    </body>
+    <script src="misScripts.js"></script>
+</html>
